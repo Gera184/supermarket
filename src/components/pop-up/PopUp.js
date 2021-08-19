@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./PopUp.css";
+import { db } from "../../firebase.js";
 import { MdDone } from "react-icons/md";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -18,9 +19,13 @@ export default function PopUp(props) {
       position: toast.POSITION.TOP_LEFT,
     });
   };
+
   useEffect(() => {
     if (confirm) {
       if (name && cvv && creditCardNumber) {
+        for (let index = 0; index < cartItems.length; index++) {
+          db.collection("basket").doc(cartItems[index].docid).delete();
+        }
         notifySuccess();
       } else {
         notifyConfirm();

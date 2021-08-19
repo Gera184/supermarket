@@ -228,7 +228,6 @@ export default function Checkout() {
                   <input
                     required
                     type="date"
-                    placeholder="MM/YY"
                     style={{
                       width: "100%",
                       opacity: "80%",
@@ -237,17 +236,16 @@ export default function Checkout() {
                   />
                 </div>
               </div>
-              <div class="row  pt-4">
+              <div class="row pt-5">
                 <div className="col text-center">
                   <a
                     onClick={() => {
                       setLoading(true);
                     }}
-                    type="submit"
                     data-toggle="modal"
                     data-target="#exampleModal"
                     style={{ color: "white" }}
-                    className="btn btn-md red"
+                    className="btn btn-lg red"
                   >
                     MAKE A PAYMENT
                   </a>
