@@ -47,8 +47,8 @@ export default function Product(props) {
 
   return (
     <>
-      <div className="product-body">
-        <div class="d-flex justify-content-center container-fluid mt-5">
+      <div className="product-body ">
+        <div class="d-flex justify-content-center container-fluid  mt-5">
           <div class="card p-3 bg-white">
             <div class="about-product text-center mt-2">
               <img

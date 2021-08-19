@@ -58,7 +58,7 @@ export default () => {
   };
 
   return (
-    <div>
+    <>
       <AuthProvider>
         <Header />
         <Router>
@@ -92,6 +92,6 @@ export default () => {
           </Switch>
         </Router>
       </AuthProvider>
-    </div>
+    </>
   );
 };
