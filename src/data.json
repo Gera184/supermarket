@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "image": "https://www.kroger.com/product/images/large/front/0000000004011",
+    "name": "Banana",
+    "price": "13"
+  },
+  {
+    "id": 1,
+    "image": "https://www.seeds-gallery.shop/5488-large_default/400-watermelon-seeds-crimson-sweet.jpg",
+    "name": "Watermelon",
+    "price": "4.90"
+  },
+  {
+    "id": 2,
+    "image": "https://static.libertyprim.com/files/varietes/cerise-burlat-large.jpg?1569344439",
+    "name": "Cherry",
+    "price": "25"
+  },
+  {
+    "id": 3,
+    "image": "https://static.libertyprim.com/files/familles/peche-large.jpg?1574630286",
+    "name": "peach",
+    "price": "17.90"
+  },
+  {
+    "id": 4,
+    "image": "https://mnirvana.co.il/wp-content/uploads/2020/10/strawberry.jpg",
+    "name": "strawberry",
+    "price": "20"
+  },
+  {
+    "id": 5,
+    "image": "https://sc04.alicdn.com/kf/U2e40a5d127e7409cb0e97e2b92f64278P.jpg",
+    "name": "pineapple",
+    "price": "35"
+  },
+  {
+    "id": 6,
+    "image": "https://www.greene.pk/wp-content/uploads/2019/04/papaya-3-Exotic-500x500.jpg",
+    "name": "papaya",
+    "price": "4.90"
+  },
+  {
+    "id": 7,
+    "image": "https://wallpapercave.com/wp/wp2722987.jpg",
+    "name": "red apple",
+    "price": "7.90"
+  },
+  {
+    "id": 8,
+    "image": "https://debannsmith.files.wordpress.com/2017/02/cropped-green-apple-fruit-hd-wallpaper.jpg",
+    "name": "green apple",
+    "price": "5.90"
+  },
+  {
+    "id": 9,
+    "image": "https://c4.wallpaperflare.com/wallpaper/489/165/75/grapes-branch-sweet-leaves-wallpaper-preview.jpg",
+    "name": "black grapes",
+    "price": "25"
+  },
+  {
+    "id": 10,
+    "image": "https://freshbuy.com.bd/wp-content/uploads/2020/10/Green-Grapes.jpg",
+    "name": "green grapes",
+    "price": "20"
+  }
+]
