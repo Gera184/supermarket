@@ -158,20 +158,12 @@ export default function Basket(props) {
                             <td>{index}</td>
                             <td>
                               <IoAddCircleSharp
+                                className="add-icon"
                                 onClick={() => addToGuestCart(item)}
-                                style={{
-                                  width: "30px",
-                                  height: "30px",
-                                  color: "#54d400",
-                                }}
                               />
                               <IoIosRemoveCircle
+                                className="remove-icon"
                                 onClick={() => removeFromGuestCart(item)}
-                                style={{
-                                  width: "30px",
-                                  height: "30px",
-                                  color: "red",
-                                }}
                               />
                             </td>
                             <th>{item.quantity}</th>
