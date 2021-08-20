@@ -36,6 +36,7 @@ export default () => {
           x.id === product.id ? { ...exist, quantity: exist.quantity + 1 } : x
         )
       );
+      notifyAdded();
     } else {
       setGuestCartItems([...guestCartItems, { ...product, quantity: 1 }]);
 

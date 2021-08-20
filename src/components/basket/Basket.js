@@ -94,22 +94,14 @@ export default function Basket(props) {
                             <td>{index}</td>
                             <td>
                               <IoAddCircleSharp
-                                style={{
-                                  width: "30px",
-                                  height: "30px",
-                                  color: "#54d400",
-                                }}
+                                className="add-icon"
                                 onClick={() => {
                                   setIndex(index);
                                   setAdd(true);
                                 }}
                               />
                               <IoIosRemoveCircle
-                                style={{
-                                  width: "30px",
-                                  height: "30px",
-                                  color: "red",
-                                }}
+                                className="remove-icon"
                                 onClick={() => {
                                   setIndex(index);
                                   setRemove(true);

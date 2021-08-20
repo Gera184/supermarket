@@ -21,7 +21,6 @@ export default function Product(props) {
   useEffect(() => {
     if (currentUser && addToCart) {
       if (exist) {
-        console.log(exist);
         db.collection("basket")
           .doc(exist.docid)
           .update({ quantity: exist.quantity + 1 });
@@ -47,7 +46,7 @@ export default function Product(props) {
 
   return (
     <>
-      <div className="product-body ">
+      <div className="product-body">
         <div class="d-flex justify-content-center container-fluid  mt-5">
           <div class="card p-3 bg-white">
             <div class="about-product text-center mt-2">

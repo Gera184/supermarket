@@ -1,3 +1,13 @@
+.add-icon {
+  width: 30px;
+  height: 30px;
+  color: #54d400;
+}
+.remove-icon {
+  width: 30px;
+  height: 30px;
+  color: red;
+}
 .btn {
   border: none;
   border-radius: 5px;
@@ -37,5 +47,15 @@
 @media only screen and (max-width: 767px) {
   .btn {
     margin-bottom: 20px;
+  }
+  .add-icon {
+    width: 25px;
+    height: 25px;
+    color: #54d400;
+  }
+  .remove-icon {
+    width: 25px;
+    height: 25px;
+    color: red;
   }
 }
